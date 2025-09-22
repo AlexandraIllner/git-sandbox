@@ -70,14 +70,17 @@
             "id": "913fe85ef013ef1d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Interaktives Rebasing.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": -70,
+                  "y": -712.5,
+                  "zoom": -0.5529124209046592
+                }
               },
-              "icon": "lucide-file",
-              "title": "Interaktives Rebasing"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ],
@@ -154,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interaktives Rebasing.md",
+                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +167,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Interaktives Rebasing"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -173,12 +176,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interaktives Rebasing.md",
+                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Interaktives Rebasing"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -202,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interaktives Rebasing.md",
+                "file": "Untitled.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Interaktives Rebasing"
+              "title": "Outline of Untitled"
             }
           }
         ]
@@ -231,10 +234,10 @@
   },
   "active": "913fe85ef013ef1d",
   "lastOpenFiles": [
+    "Interaktives Rebasing.md",
     "Pasted image 20250922174334.png",
     "Pasted image 20250922172557.png",
     "Cherry-picking.md",
-    "Interaktives Rebasing.md",
     "Pasted image 20250922171900.png",
     "Pasted image 20250922171738.png",
     "Zurücknehmen von Änderungen.md",
