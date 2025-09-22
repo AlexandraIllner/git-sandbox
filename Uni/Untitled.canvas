@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"8c831425b2ed654a","type":"text","text":"git branch `<name>`","x":-620,"y":-560,"width":200,"height":60,"color":"4"},
+		{"id":"005cc0028b754e0e","type":"text","text":"git checkout `<name>`","x":-620,"y":-480,"width":200,"height":60,"color":"4"},
+		{"id":"9dc9f0c2e227f1b1","type":"text","text":"git checkout -b `<name>`","x":-380,"y":-530,"width":280,"height":60,"color":"4"},
+		{"id":"df7a33b955eba278","x":260,"y":-890,"width":80,"height":70,"color":"3","type":"text","text":"c0"},
+		{"id":"8c956194acda5c61","type":"text","text":"c1","x":260,"y":-790,"width":80,"height":70,"color":"3"},
+		{"id":"8d13dbedcc6f0268","type":"text","text":"c2","x":260,"y":-680,"width":80,"height":70,"color":"3"},
+		{"id":"5758ca3cf45e03f1","type":"text","text":"c4","x":260,"y":-455,"width":80,"height":70,"color":"3"},
+		{"id":"608a944aca591536","type":"text","text":"c5","x":260,"y":-355,"width":80,"height":70,"color":"3"},
+		{"id":"3aeba41a8e7c0cb4","type":"text","text":"c0","x":260,"y":-245,"width":80,"height":70,"color":"3"},
+		{"id":"49243dde86c7812d","type":"text","text":"c0","x":260,"y":-135,"width":80,"height":70,"color":"3"},
+		{"id":"efaa082b8ce9c6c3","type":"text","text":"git merge","x":-620,"y":-380,"width":140,"height":60,"color":"4"},
+		{"id":"56cf7b5637606d9b","type":"text","text":"c3\nbugFix","x":400,"y":-680,"width":80,"height":70,"color":"5"},
+		{"id":"b0f66774c0b8b4e3","x":347,"y":-590,"width":133,"height":60,"color":"1","type":"text","text":"git rebase main"},
+		{"id":"b0d04b79d2fa9489","x":-640,"y":-930,"width":480,"height":140,"color":"3","type":"text","text":"branch early, and branch often\n\nBecause there is no storage / memory overhead with making many branches, it's easier to logically divide up your work than have big beefy branches."},
+		{"id":"a4568f40ed4be5d9","x":-480,"y":-1140,"width":120,"height":60,"color":"4","type":"text","text":"git add"},
+		{"id":"5382c5cbd158b8c7","type":"text","text":"git commit","x":-300,"y":-1140,"width":140,"height":60,"color":"4"},
+		{"id":"af1c527b45819d39","type":"text","text":"**HEAD**\nzeigt auf den Branch, auf dem gearbeitet wird. \n\nÄndern mittels `git checkout <branch>` bzw. auf einen bestimmten Commit.\nDas geht mittels Hash des gewünschten Commits\noder \nmit ^ (zeigt auf ersten Eltern-Commit) bzw ^^('Großeltern') usw.\noder \nmit HEAD als relativer Referenz:\n`git checkout HEAD^`\n\n**Mehrere Stufen auf einmal nehmen:**\n`git checkout HEAD~4`","x":20,"y":-1360,"width":480,"height":370,"color":"2"}
+	],
+	"edges":[
+		{"id":"f7d832c7dbc2d85a","fromNode":"8c831425b2ed654a","fromSide":"right","toNode":"9dc9f0c2e227f1b1","toSide":"left"},
+		{"id":"bec11ea259f1dda6","fromNode":"005cc0028b754e0e","fromSide":"right","toNode":"9dc9f0c2e227f1b1","toSide":"left"},
+		{"id":"ffe3febcdbbaa972","fromNode":"8c956194acda5c61","fromSide":"top","toNode":"df7a33b955eba278","toSide":"bottom","color":"3"},
+		{"id":"e3e3647d8e5097b7","fromNode":"8d13dbedcc6f0268","fromSide":"top","toNode":"8c956194acda5c61","toSide":"bottom","color":"3"},
+		{"id":"24b1469dfb78e639","fromNode":"56cf7b5637606d9b","fromSide":"top","toNode":"8c956194acda5c61","toSide":"right","color":"5"},
+		{"id":"a44f85145655994b","fromNode":"56cf7b5637606d9b","fromSide":"bottom","toNode":"8d13dbedcc6f0268","toSide":"bottom","color":"4"},
+		{"id":"bda8a61b45c366b4","fromNode":"8c831425b2ed654a","fromSide":"bottom","toNode":"005cc0028b754e0e","toSide":"top"}
+	]
+}
